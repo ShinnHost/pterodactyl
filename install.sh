@@ -21,8 +21,8 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "饾棖饾棩饾棙饾棗饾棞饾棫饾棪 :"
-  echo -e "@foxstore"
-  echo -e "@Shinn"
+  echo -e "@shinn"
+  echo -e "No Wa 6282336762967"
   sleep 4
   clear
 }
