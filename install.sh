@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/RafatharUserbotV4/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/ShinnHost/pterodactyl/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/RafatharUserbotV4/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/ShinnHost/pterodactyl/raw/main/C3.zip")
         break
         ;; 
       x)
