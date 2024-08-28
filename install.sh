@@ -431,8 +431,8 @@ while true; do
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
   echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : @ShinnHost   ${NC}"
   echo -e "${RED} ggg:     ggg._    _,ggg        • Credit  : Shinn  ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Shinn  
-  echo -e "${RED}  'ggg    '-.__                 • No WhatsApp : 082336762967 ${NC}"                         ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support by Shinn  ${NC}"
+  echo -e "${RED}  'ggg    '-.__                 • No WhatsApp : 082336762967 ${NC}"                         
   echo -e "${RED}    ggg                                                   ${NC}"
   echo -e "${RED}      ggg                                                 ${NC}"
   echo -e "${RED}        ggg.                                              ${NC}"
