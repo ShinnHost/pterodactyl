@@ -424,7 +424,7 @@ while true; do
   echo -e "                                                                     "
   echo -e "${WHITE}     ___________                    Auto Installer Shinn   ${NC}"
   echo -e "${RED}    /   ___________                ------------------------  ${NC}"
-  echo -e "${WHITE  /   /                          • Telegram : @ShinnHost   ${NC}"
+  echo -e "${WHITE}  /   /                          • Telegram : @ShinnHost   ${NC}"
   echo -e "${WHITE} |   |                          • Credit  : Shinn           ${NC}"
   echo -e "${WHITE} |   |__________                • Support by Shinn              ${NC}"
   echo -e "${WHITE} |                |             • WhatsApp : 6282336762967                                     ${NC}"                         
