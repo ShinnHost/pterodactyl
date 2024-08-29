@@ -4,14 +4,17 @@
 
 ## AUTO INSTALLER SCRIPT
 
-Gunakan script di bawah untuk menginstall thema dengan sekali copy paste saja.
+Gunakan script di bawah untuk menginstall dengan sekali copy paste saja.
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/ShinnHost/pterodactyl/main/install.sh)
 ```
 
 ## Features
-
+- install panel
+- create node
+- hack back panel
+- start up wings
 - thema stellar
 - thema billing
 - thema enigma
