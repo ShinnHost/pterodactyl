@@ -414,6 +414,22 @@ EOF
   
   exit 0
 }
+# Install Panel 
+install_panel() {
+  echo -e "                                                       "
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]                    INSTALL PANEL                 [+]${NC}"
+  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "                                                       "
+  bash <(curl https://raw.githubusercontent.com/ShinnHost/pterodactyl/main/installpanelv2)
+  echo -e "                                                       "
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "${GREEN}[+]                 INSTALL PANEL SUKSES             [+]${NC}"
+  echo -e "${GREEN}[+] =============================================== [+]${NC}"
+  echo -e "                                                       "
+  sleep 2
+  clear
+}
 # Main script
 display_welcome
 install_jq
@@ -422,17 +438,17 @@ check_token
 while true; do
   clear
   echo -e "                                                                     "
-  echo -e "${WHITE}     ___________                  Auto Installer Shinn   ${NC}"
-  echo -e "${RED}     /   ___________               ------------------------  ${NC}"
-  echo -e "${WHITE}  /   /                         • Telegram : @ShinnHost   ${NC}"
-  echo -e "${WHITE} |   |                          • Credit  : Shinn           ${NC}"
-  echo -e "${WHITE} |   |__________                • Support by Shinn              ${NC}"
-  echo -e "${WHITE} |                |             • WhatsApp : 6282336762967                                     ${NC}"                         
-  echo -e "${RED}   \___________     |                                             ${NC}"
-  echo -e "${RED}               |    |                                    ${NC}"
-  echo -e "${RED}               |    |                              ${NC}"
-  echo -e "${RED}     _________ /    /                        ${NC}"
-  echo -e "${RED}     _________  ___/                                     ${NC}"
+  echo -e "${WHITE}     ___________                  Auto Installer Shinn    ${NC}"
+  echo -e "${RED}    /   ___________                ------------------------ ${NC}"
+  echo -e "${WHITE} /   /                          • Telegram : @ShinnHost   ${NC}"
+  echo -e "${WHITE} |   |                          • Credit  : Shinn         ${NC}"
+  echo -e "${WHITE} |   |__________                • Support by Shinn        ${NC}"
+  echo -e "${WHITE} |                |             • WhatsApp : 6282336762967${NC}"                         
+  echo -e "${RED}   \___________     |                                       ${NC}"
+  echo -e "${RED}               |    |                                       ${NC}"
+  echo -e "${RED}               |    |                                       ${NC}"
+  echo -e "${RED}     _________ /    /                                       ${NC}"
+  echo -e "${RED}     _________  ___/                                        ${NC}"
   echo -e "                                                                     "
   echo -e "BERIKUT LIST INSTALL :"
   echo "1. Install theme"
@@ -442,6 +458,7 @@ while true; do
   echo "5. Uninstall Panel"
   echo "6. Install Thema Stellar"
   echo "7. Hack Back Panel"
+  echo "8. Install Panel"
   echo "x. Exit"
   echo -e "Masukkan pilihan 1/2/x:"
   read -r MENU_CHOICE
@@ -468,6 +485,9 @@ while true; do
       ;;
       7)
       hackback_panel
+      ;;
+      8)
+      install_panel
       ;;
     x)
       echo "Keluar dari skrip."
