@@ -421,7 +421,7 @@ install_panel() {
   echo -e "${BLUE}[+]                    INSTALL PANEL                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/ShinnHost/pterodactyl/main/installpanelv2)
+  bash <(curl https://raw.githubusercontent.com/ShinnHost/pterodactyl/main/installpanelv2.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 INSTALL PANEL SUKSES             [+]${NC}"
